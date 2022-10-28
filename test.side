@@ -1,0 +1,320 @@
+{
+  "id": "7528e925-2fd7-4fc1-9300-5e7e6c16e4ef",
+  "version": "2.0",
+  "name": "test",
+  "url": "https://rozetka.com.ua",
+  "tests": [{
+    "id": "197f08ee-7673-405f-a610-9fde2ace8018",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "dcc5b815-e2eb-4cb3-a405-ff10fe29c6ea",
+    "name": "Add product toa cart",
+    "commands": [{
+      "id": "c7568fb7-cf5c-4e36-bdcd-5862637cfab6",
+      "comment": "",
+      "command": "open",
+      "target": "/ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "af4486d3-484c-4cf6-a153-0135c0c0f3bf",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1006x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dfa23676-9472-4cf4-81a1-feb4eb97a87b",
+      "comment": "",
+      "command": "click",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.search-form__input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0ca1a41-fb51-435e-b701-4c0e3f57c0cc",
+      "comment": "",
+      "command": "type",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.search-form__input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "кобзар"
+    }, {
+      "id": "d579521d-286f-4b88-8e0a-c02f8bbba6f4",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'Знайти')]",
+      "targets": [
+        ["css=.button_color_green", "css:finder"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Знайти')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e532207-05ec-4fd9-86ff-fcf03689557a",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(@href, 'https://rozetka.com.ua/ua/shkola_9789664291924/p232771933/')]",
+      "targets": [
+        ["css=.catalog-grid__cell:nth-child(1) .goods-tile__picture", "css:finder"],
+        ["xpath=//a[contains(@href, 'https://rozetka.com.ua/ua/shkola_9789664291924/p232771933/')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf66244f-d086-4039-8506-fc88ab0f22cf",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'Купити')]",
+      "targets": [
+        ["css=.button--green", "css:finder"],
+        ["xpath=(//button[@type='button'])[21]", "xpath:attributes"],
+        ["xpath=//div[@id='#scrollArea']/div/div[2]/rz-product-main-info/div/div/ul/li/rz-product-buy-btn/app-buy-button/button", "xpath:idRelative"],
+        ["xpath=//app-buy-button/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Купити')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "659d38d6-aadb-40a7-a44a-025db666b929",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//rz-cart-counter/div/button[2]",
+      "targets": [
+        ["css=.button:nth-child(3)", "css:finder"],
+        ["xpath=(//button[@type='button'])[84]", "xpath:attributes"],
+        ["xpath=//rz-cart-counter/div/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "775da848-4d0b-4326-b42c-c3333e77edc6",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "xpath=//rz-single-modal-window/div[3]",
+      "targets": [
+        ["css=.modal__holder", "css:finder"],
+        ["xpath=//rz-single-modal-window/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b983d57b-a6cf-4ae2-bb2c-204c89ce492c",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "xpath=//rz-cart-counter/div/button[2]",
+      "targets": [
+        ["css=.button:nth-child(3)", "css:finder"],
+        ["xpath=(//button[@type='button'])[84]", "xpath:attributes"],
+        ["xpath=//rz-cart-counter/div/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "25f8529c-f879-4464-8b97-65cb4b1c501b",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//rz-single-modal-window/div[3]",
+      "targets": [
+        ["css=.modal__holder", "css:finder"],
+        ["xpath=//rz-single-modal-window/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "84f46d79-64c9-479a-9a23-19b78f8e7a89",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//rz-cart-counter/div/button[2]",
+      "targets": [
+        ["css=.button:nth-child(3)", "css:finder"],
+        ["xpath=(//button[@type='button'])[84]", "xpath:attributes"],
+        ["xpath=//rz-cart-counter/div/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "966977dc-462d-4c41-91d1-40d4b004c8d0",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//rz-cart-counter/div/button[2]",
+      "targets": [
+        ["css=.button:nth-child(3)", "css:finder"],
+        ["xpath=(//button[@type='button'])[84]", "xpath:attributes"],
+        ["xpath=//rz-cart-counter/div/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0ee7879-ae7c-4006-b38f-b66a62ae6722",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//rz-cart-counter/div/button[2]",
+      "targets": [
+        ["css=.button:nth-child(3)", "css:finder"],
+        ["xpath=(//button[@type='button'])[84]", "xpath:attributes"],
+        ["xpath=//rz-cart-counter/div/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0bf1627b-e16b-4fd6-8caa-310fe6eef542",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//rz-single-modal-window/div[4]",
+      "targets": [
+        ["css=.modal__holder", "css:finder"],
+        ["xpath=//rz-single-modal-window/div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "434adb88-431b-4bbd-b2e8-27e6abbcbd09",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//rz-cart-counter/div/button[2]",
+      "targets": [
+        ["css=.button:nth-child(3)", "css:finder"],
+        ["xpath=(//button[@type='button'])[84]", "xpath:attributes"],
+        ["xpath=//rz-cart-counter/div/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e8c4c6c-c124-404b-8c88-cc2a8f33c114",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//rz-cart-counter/div/button[2]",
+      "targets": [
+        ["css=.button:nth-child(3)", "css:finder"],
+        ["xpath=(//button[@type='button'])[84]", "xpath:attributes"],
+        ["xpath=//rz-cart-counter/div/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d122219a-cb10-48d4-9191-d47665e740fb",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//rz-single-modal-window/div[4]",
+      "targets": [
+        ["css=.modal__holder", "css:finder"],
+        ["xpath=//rz-single-modal-window/div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "658ce00f-0703-464a-816e-640495ad7c82",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//rz-cart-counter/div/button[2]",
+      "targets": [
+        ["css=.button:nth-child(3)", "css:finder"],
+        ["xpath=(//button[@type='button'])[84]", "xpath:attributes"],
+        ["xpath=//rz-cart-counter/div/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7fa8df8f-8443-4260-827a-f8a67d0c0514",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//rz-cart-counter/div/button",
+      "targets": [
+        ["css=.button_color_white:nth-child(1)", "css:finder"],
+        ["xpath=(//button[@type='button'])[83]", "xpath:attributes"],
+        ["xpath=//rz-cart-counter/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3307fb31-061c-41e6-83af-a7640c8b891f",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(.,'Оформити замовлення')]",
+      "targets": [
+        ["linkText=Оформити замовлення", "linkText"],
+        ["css=.button_size_large", "css:finder"],
+        ["xpath=//a[contains(text(),'Оформити замовлення')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://rozetka.com.ua/ua/checkout/')]", "xpath:href"],
+        ["xpath=//rz-shopping-cart/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Оформити замовлення')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "698b9223-69d8-43d3-bf4c-7c4c48e64fa3",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(.,'Редагувати')]",
+      "targets": [
+        ["linkText=Редагувати", "linkText"],
+        ["name=edit", "name"],
+        ["css=.button--small", "css:finder"],
+        ["xpath=//a[contains(text(),'Редагувати')]", "xpath:link"],
+        ["xpath=//a[@name='edit']", "xpath:attributes"],
+        ["xpath=//a[contains(@href, 'my.rozetka.com.ua/cart')]", "xpath:href"],
+        ["xpath=//fieldset/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Редагувати')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "35bd151d-a25e-4b1f-afa2-3f5b1e2febd5",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[@id='cartProductActions0']",
+      "targets": [
+        ["id=cartProductActions0", "id"],
+        ["css=#cartProductActions0", "css:finder"],
+        ["xpath=//button[@id='cartProductActions0']", "xpath:attributes"],
+        ["xpath=//rz-popup-menu/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6cfc2df0-bc5f-44f0-9249-ef92feba5c8d",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'Видалити')]",
+      "targets": [
+        ["css=.button--link", "css:finder"],
+        ["xpath=(//button[@type='button'])[8]", "xpath:attributes"],
+        ["xpath=//div[@id='cartProductActions0']/ul/li/rz-trash-icon/button", "xpath:idRelative"],
+        ["xpath=//rz-trash-icon/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Видалити')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e532f2e-553c-4904-81df-cbdebbe84952",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header__button > .ng-tns-c94-3 > .ng-tns-c94-3",
+      "targets": [
+        ["css=.header__button > .ng-tns-c94-3 > .ng-tns-c94-3", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8d9bbeb-8224-4901-908a-1a341fff1300",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//img[contains(@src,'https://content2.rozetka.com.ua/widget_logotype/full/original/229862237.svg')])[2]",
+      "targets": [
+        ["css=.side-menu__logo > .ng-tns-c94-3", "css:finder"],
+        ["xpath=(//img[contains(@src,'https://content2.rozetka.com.ua/widget_logotype/full/original/229862237.svg')])[2]", "xpath:img"],
+        ["xpath=//div[@id='cdk-overlay-0']/nav/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//nav/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "81a6b405-bc06-4ef8-a94f-927c3a9626fd",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "e6523b8a-cef6-45bb-922f-7a3d02f56f90",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["197f08ee-7673-405f-a610-9fde2ace8018"]
+  }],
+  "urls": ["https://rozetka.com.ua/"],
+  "plugins": []
+}
